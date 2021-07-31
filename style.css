@@ -1,0 +1,102 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.square {
+    width: 27%;
+    height: 27%;
+    background: rebeccapurple;
+    padding-bottom: .5rem;
+    float: left;
+    margin: 2.66%;
+    border-radius: 18%;
+    transition: background 0.6s;
+    --webkit-transition: background 0.6s;
+    --moz-transition: background 0.6s;
+}
+
+#container {
+    margin: 2rem auto;
+    max-width: 60rem;
+    height: 28rem;
+}
+
+h1 {
+    text-align: center;
+    line-height: 1.1;
+    background: steelblue;
+    color: beige;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: .1rem 0;
+}
+
+#colorDisplay {
+    font-size: 78%;
+}
+
+.newc {
+    padding-left: .2rem;
+}
+
+#message {
+    display: inline-block;
+    width: 25%;
+}
+
+#stripe {
+    background: white;
+    height: 1.8rem;
+    text-align: center;
+    color: black;
+}
+
+.selected {
+    color: white;
+    background: steelblue;
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: .07rem;
+    font-size: inherit;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
+}
+
+@media(max-width:998px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px) {
+    hmtl {
+        font-size: 45%;
+    }
+}
+
+@media(max-width:600px) {
+    html {
+        font-size: 38%;
+    }
+}
